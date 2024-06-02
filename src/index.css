@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+*  {
+  margin: 0;
+  font-family: "Courgette", cursive;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+  box-sizing: border-box;
+}

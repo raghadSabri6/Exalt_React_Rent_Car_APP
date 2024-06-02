@@ -1,0 +1,30 @@
+.Form,
+.form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Form{
+    width: 100%;
+    justify-content: center;
+}
+.form{
+    width: 96%;
+
+}
+.row{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 10px;
+
+}
+.inputError{
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+}
