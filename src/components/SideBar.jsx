@@ -37,7 +37,7 @@ function SideBar() {
             </button>
           </li>
           <li>
-            <button type="button" className={btnStyles1} onClick={handleHistory}>
+            <button type="button" id="historyButton" className={btnStyles1} onClick={handleHistory}>
               History
             </button>
           </li>

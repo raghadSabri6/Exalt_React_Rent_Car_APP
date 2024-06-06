@@ -79,7 +79,7 @@ const Car = () => {
                 <p>Brief description: <span className="text-primary">{car.details.split(' ').slice(0, 6).join(' ')}...</span></p>
 
               </div>
-              <Link className="btn btn-primary mt-auto" to={`/carDetails/${car.id}`}>
+              <Link className="btn btn-primary mt-auto viewDetails" to={`/carDetails/${car.id}`}>
                 View Details
               </Link>
             </div>
